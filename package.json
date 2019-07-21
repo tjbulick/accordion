@@ -1,0 +1,22 @@
+{
+  "name": "accordion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjbulick/accordion.git"
+  },
+  "author": "Egor Pishchalnikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjbulick/accordion/issues"
+  },
+  "homepage": "https://github.com/tjbulick/accordion#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
