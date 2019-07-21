@@ -15,8 +15,9 @@
 }
 
 .panel {
-	display: none;
-	padding: 0 18px;
 	background-color: white;
+	padding: 0 18px;
+	max-height: 0;
 	overflow: hidden;
+	transition: max-height 0.2s ease-out;
 }
