@@ -5,10 +5,11 @@ for (let i = 0; i < accordion.length; i++) {
 		this.classList.toggle('active');
 
 		const panel = this.nextElementSibling;
-		if (panel.style.display === 'block') {
-			panel.style.display = 'none';
+
+		if (panel.style.maxHeight) {
+			panel.style.maxHeight = null;
 		} else {
-			panel.style.display = 'block';
+			panel.style.maxHeight = panel.scrollHeight + 'px';
 		}
 	});
 }
